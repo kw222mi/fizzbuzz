@@ -19,7 +19,17 @@ namespace FizzBuzz
             Console.Write("Ange andra talet (Y): ");
             int y = int.Parse(Console.ReadLine());
 
-
+            for (int i = 1; i <= limit; i++)
+            {
+                if (i % x == 0 && i % y == 0)
+                    Console.WriteLine("fizzbuzz");
+                else if (i % x == 0)
+                    Console.WriteLine("fizz");
+                else if (i % y == 0)
+                    Console.WriteLine("buzz");
+                else
+                    Console.WriteLine(i);
+            }
         }
         }
     }
