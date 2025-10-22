@@ -10,6 +10,7 @@ namespace FizzBuzz
     {
         static void Main()
         {
+            Console.Write("Välkommen till FizzBuzz!");
             Console.Write("Ange gränsen (t.ex. 100): ");
             int limit = int.Parse(Console.ReadLine());
 
