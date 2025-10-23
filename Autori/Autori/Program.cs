@@ -10,7 +10,7 @@ namespace Autori
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(" Shorten Scientific Name");
+            Console.WriteLine("Shorten Scientific Name");
             Console.WriteLine("This program converts a long scientific name (e.g. 'Knuth-Morris-Pratt')");
             Console.WriteLine("into its short form using only the initials (e.g. 'KMP').");
             Console.WriteLine();
