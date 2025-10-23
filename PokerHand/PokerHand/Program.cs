@@ -10,13 +10,32 @@ namespace PokerHand
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Poker Hand – Find the largest group of same rank");
-            Console.WriteLine("Enter 5 cards (e.g. 'TH JH QH QD QS'):");
-            string[] cards = Console.ReadLine().Split(' ');
+
+            string[] ranks = { "2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K", "A" };
+            string[] suits = { "S", "H", "D", "C" }; 
+
+            List<string> deck = new List<string>();
+
+            foreach (string rank in ranks)
+            {
+                foreach (string suit in suits)
+                {
+                    deck.Add(rank + suit);
+                }
+            }
+
+            Random random = new Random();
+            deck = deck.OrderBy(x => random.Next()).ToList();
+
+            List<string> hand = deck.Take(5).ToList();
+
+            Console.WriteLine("Your random hand:");
+            Console.WriteLine(string.Join(" ", hand));
+
 
             var counts = new Dictionary<char, int>();
 
-            foreach (string card in cards)
+            foreach (string card in hand)
             {
                 char rank = card[0]; 
                 if (!counts.ContainsKey(rank))
