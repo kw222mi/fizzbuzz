@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasty Hacks", "..\Nasty Hac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stackingCups", "..\stackingCups\stackingCups\stackingCups.csproj", "{2D59BD96-51A5-4651-9A41-CA686DF7F157}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerHand", "..\PokerHand\PokerHand\PokerHand.csproj", "{7CA8479D-DFA3-47FC-B19B-FE092367B0C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{2D59BD96-51A5-4651-9A41-CA686DF7F157}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D59BD96-51A5-4651-9A41-CA686DF7F157}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D59BD96-51A5-4651-9A41-CA686DF7F157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CA8479D-DFA3-47FC-B19B-FE092367B0C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA8479D-DFA3-47FC-B19B-FE092367B0C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA8479D-DFA3-47FC-B19B-FE092367B0C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA8479D-DFA3-47FC-B19B-FE092367B0C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
