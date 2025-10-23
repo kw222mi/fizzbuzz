@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulo", "..\Modulo\Modulo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planina", "..\Planina\Planina\Planina.csproj", "{B7A9AB3C-F240-4C4D-B228-8098F646B1F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reversed Binary Numbers", "..\Reversed Binary Numbers\Reversed Binary Numbers\Reversed Binary Numbers.csproj", "{A898B3C9-343D-4521-BF31-8B9C40183990}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversedBinaryNumbers", "..\ReversedBinaryNumbers\ReversedBinaryNumbers\ReversedBinaryNumbers.csproj", "{A898B3C9-343D-4521-BF31-8B9C40183990}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
