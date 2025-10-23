@@ -10,7 +10,7 @@ namespace TimeLoop
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Välkommen till timeLoop välj antal gånger abrakadabra ska " +
+            Console.WriteLine("Välkommen till timeLoop! Välj antal gånger abrakadabra ska " +
                 "läsas upp för att bryta förtrollningen");
             int n = int.Parse(Console.ReadLine());
             for (int i = 1; i <= n; i++)

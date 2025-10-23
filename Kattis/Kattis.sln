@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36603.0 d17.14
+VisualStudioVersion = 17.14.36603.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "..\FizzBuzz\FizzBuzz\FizzBuzz.csproj", "{AC104609-C5C7-4C39-BFC6-7E1FEF2BF0BD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeLoop", "..\timeloop\TimeLoop\TimeLoop.csproj", "{31874A25-1DBB-4D20-8C98-334388902704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R2", "..\R2\R2\R2.csproj", "{01300ADD-3459-49C6-B74D-015C54B30694}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{31874A25-1DBB-4D20-8C98-334388902704}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31874A25-1DBB-4D20-8C98-334388902704}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31874A25-1DBB-4D20-8C98-334388902704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01300ADD-3459-49C6-B74D-015C54B30694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01300ADD-3459-49C6-B74D-015C54B30694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01300ADD-3459-49C6-B74D-015C54B30694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01300ADD-3459-49C6-B74D-015C54B30694}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
