@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autori", "..\Autori\Autori\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulo", "..\Modulo\Modulo\Modulo.csproj", "{70BF5A35-4D55-49FE-B45C-4B63CA1B1687}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planina", "..\Planina\Planina\Planina.csproj", "{B7A9AB3C-F240-4C4D-B228-8098F646B1F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{70BF5A35-4D55-49FE-B45C-4B63CA1B1687}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70BF5A35-4D55-49FE-B45C-4B63CA1B1687}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70BF5A35-4D55-49FE-B45C-4B63CA1B1687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A9AB3C-F240-4C4D-B228-8098F646B1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A9AB3C-F240-4C4D-B228-8098F646B1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A9AB3C-F240-4C4D-B228-8098F646B1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A9AB3C-F240-4C4D-B228-8098F646B1F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
